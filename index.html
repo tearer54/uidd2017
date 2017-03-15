@@ -10,8 +10,16 @@
 </head>
 
 <body>
-<div><img src="intro_up.png"width=100%></div> 
-
+<style type="text/css">
+div.up{
+position:absolute;
+left:0px;
+top:0px;
+z-index:1;
+}
+<div class="up">
+<img src="intro_up.png"width=100%></div> 
+</div>
   <div id="photocarousel" class="carousel slide" data-ride="carousel"data-interval="3000">
 
   
@@ -34,7 +42,7 @@
     <div class="item">
       <img src="intro4.jpg"width=100%>
       </div>
-      <div>
+      <div class="down">
       <img src="intro_down.png"width=100%>
       </div>
   </div>

@@ -12,7 +12,7 @@
 </style>
 <div id="ann_boxa" class="ann3" style="width:500px;">
   <div id="bula_2" class="ann3"><img src="ABOUT US-06.jpg"width=60%></div>
-   <div id="bula_3" class="ann3"><img src="ABOUT US-06.jpg"width=60%></div>
+   <div id="bula_3" class="ann3"><img src="ABOUT US-06.jpg"width=61%></div>
    </div>
         <script>
         document.getElementById('ann_boxa').scrollTop = document.getElementById('ann_boxa').scrollHeight;
@@ -23,7 +23,7 @@
                 var s = function(){tid=setInterval(slide, speed);}
                   var slide = function(){
                       if(pause) return;
-                          slideBox.scrollTop += 1;
+                          slideBox.scrollTop -= 1;
                               if(slideBox.scrollTop%h == 0){
                                     clearInterval(tid);
                                           slideBox.insertBefore(slideBox.getElementsByTagName(stf)[slideBox.getElementsByTagName(stf).length-1],slideBox.getElementsByTagName(stf)[0]);

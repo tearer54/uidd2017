@@ -5,18 +5,18 @@
 
 ///////
 <style>
-.photo{overflow:hidden;height=50px;}
+.photo{overflow:hidden;height=1200vh;}
 </style>
 <div id ="photo.box" class="photo" >
-<div id ="a1" class="photo"><img src="ABOUT US-06.jpg"width="500vw";height="2200vh";></div>
-<div id ="a2" class="photo"><img src="ABOUT US-06.jpg"width="500vw";height="2200vh";></div>
+<div id ="a1" class="photo"><img src="ABOUT US-06.jpg"width="300vw";height="1200vh";></div>
+<div id ="a2" class="photo"><img src="ABOUT US-06.jpg"width="3000vw";height="1200vh";></div>
 </div>
 
-<script>
+<script type="text/javascript">>
 document.getElementById('photo.box').scrollTop = document.getElementById('photo.box').scrollHeight;
 function slideLine3(box,stf,delay,speed,h){
 var slideBox = document.getElementById(box);
-var delay = delay||1000,speed = speed||20,h = h||50;
+var delay = delay||1000,speed = speed||20,h = h||1200;
 var tid = null,pause = false;
 var s = function(){tid=setInterval(slide, speed);}
 var slide = function(){
@@ -33,7 +33,7 @@ slideBox.onmouseover=function(){pause=true;}
 slideBox.onmouseout=function(){pause=false;}
 setTimeout(s, delay);
 }
-slideLine3('photo.box','div',2000,25,100);
+slideLine3('photo.box','div',2000,25,1200);
 </script>
 
 

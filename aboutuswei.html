@@ -5,9 +5,9 @@
 
 ///////
 <style>
-.photo{overflow:hidden;height=30vh;}
+.photo{overflow:hidden;height=50px;}
 </style>
-<div id ="photo.box" class="photo" style="width:70vh;highth=30vh;">
+<div id ="photo.box" class="photo" style="width:70vh;highth=20vh;">
 <div id ="a1" class="photo"><img src="ABOUT US-06.jpg"width=50%></div>
 <div id ="a2" class="photo"><img src="ABOUT US-06.jpg"width=50%></div>
 </div>
@@ -16,7 +16,7 @@
 document.getElementById('photo.box').scrollTop = document.getElementById('photo.box').scrollHeight;
 function slideLine3(box,stf,delay,speed,h){
 var slideBox = document.getElementById(box);
-var delay = delay||1000,speed = speed||20,h = h||20;
+var delay = delay||1000,speed = speed||20,h = h||50;
 var tid = null,pause = false;
 var s = function(){tid=setInterval(slide, speed);}
 var slide = function(){
@@ -33,7 +33,7 @@ slideBox.onmouseover=function(){pause=true;}
 slideBox.onmouseout=function(){pause=false;}
 setTimeout(s, delay);
 }
-slideLine3('photo.box','div',2000,25,75);
+slideLine3('photo.box','div',2000,25,100);
 </script>
 
 

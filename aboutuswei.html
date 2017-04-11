@@ -1,5 +1,5 @@
 <html>
-<body style="background-color:#000000;"width:100vw;highth:100vh;>
+<body style="background-color:#000000;"width:100vw;height:100vh;>
 
 <img src="ABOUT US-07.jpg"width=100%>
 
@@ -7,7 +7,7 @@
 <style>
 .photo{overflow:hidden;height=50px;}
 </style>
-<div id ="photo.box" class="photo" style="width:70vh;highth=20vh;">
+<div id ="photo.box" class="photo" style="width:70vh;height=20vh;">
 <div id ="a1" class="photo"><img src="ABOUT US-06.jpg"width=50%></div>
 <div id ="a2" class="photo"><img src="ABOUT US-06.jpg"width=50%></div>
 </div>
@@ -21,7 +21,7 @@ var tid = null,pause = false;
 var s = function(){tid=setInterval(slide, speed);}
 var slide = function(){
 if(pause) return;
- slideBox.scrollTop -= 1;
+ slideBox.scrollTop += 1;
 if(slideBox.scrollTop%h == 0){
 clearInterval(tid);
 slideBox.insertBefore(slideBox.getElementsByTagName(stf)[slideBox.getElementsByTagName(stf).length-1],slideBox.getElementsByTagName(stf)[0]);

@@ -60,6 +60,8 @@ p1{
   font-size: 50px;
   color: white;
 font-family: Microsoft JhengHei;
+ letter-spacing: 5px;
+ padding: 5px;
 }
 
 p2{
@@ -97,53 +99,100 @@ p2{
   background: #0E0E0E;
 }
 
-.quoto{
+#about{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+padding: 10px;
+  font-size: 20px;
+}
+
+#first_name{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#name{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+#desc{
+  color: white;
+  font-family: Microsoft JhengHei;
+  padding-left: 15px;
+  font-size: 12px;
+  line-height: 1.2;
+
+}
+
+#contact{
+  color: white;
+  font-family: Microsoft JhengHei;
+  padding-left: 15px;
+  font-size: 12px;
+ line-height: 1.8;
+}
+
+.quoto_part{
   position: absolute;
   width: 440px;
   height: 250px;
   background-color: #0E0E0E;
   left: 440px;
   line-height: 250px;
-
 }
-p6{
+
+#quoto{
   color: white;
-  font-family: Microsoft JhengHei;
-}
-
-p9{
-  color: white;
-  font-family: Microsoft JhengHei;
-}
-
-p4{
-  color: white;
-  font-family: Microsoft JhengHei;
-  font-size: 20px;
-}
-
-p8{
-  color: black;
   font-family: Microsoft JhengHei;
   font-size: 15px;
 }
+
+#title{
+  color: black;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#info{
+  color: black;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  line-height: 1.4;
+  padding-top: 10px;
+}
+
+#info2{
+  color: black;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  line-height: 1.4;
+  padding-top: 20px;
+}
+
 
 .app{
   position: absolute;
   text-align: center;
+  left: 38%;
+  padding-top: 15px;
+
 }
 
-p10{
+#predict{
   color: black;
   font-family: Microsoft JhengHei;
-  font-size: 15px;
+  font-size: 5px;
 }
 
 
-p7{
-  color: white;
-  font-family: Microsoft JhengHei;
-}
 
 .phone{
   position: absolute;
@@ -160,24 +209,15 @@ p7{
   background-position: center;
 }
 
-p3{
-  color: white;
-  font-family: Microsoft JhengHei;
-}
 
 .about{
 position: absolute;
 width: 400px;
 height: 200px;
-left: 582px;
-top: 195px;
+left: 550px;
+top: 150px;
 text-align: center;
 
-}
-
-p5{
-  color: white;
-  font-family: Microsoft JhengHei;
 }
 
 footer{
@@ -186,7 +226,9 @@ footer{
   text-align: center;
 }
 
-p4{
+#footer{
   color: white;
   font-family: Microsoft JhengHei;
+  padding: 10px;
+  font-size: 15px;
 }

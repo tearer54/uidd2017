@@ -23,7 +23,7 @@
                 var s = function(){tid=setInterval(slide, speed);}
                   var slide = function(){
                       if(pause) return;
-                          slideBox.scrollTop -= 1;
+                          slideBox.scrollTop += 1;
                               if(slideBox.scrollTop%h == 0){
                                     clearInterval(tid);
                                           slideBox.insertBefore(slideBox.getElementsByTagName(stf)[slideBox.getElementsByTagName(stf).length-1],slideBox.getElementsByTagName(stf)[0]);

@@ -12,29 +12,44 @@
   <div id="b1" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
    <div id="b2" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
    </div>
-        <script>
-        function slideLine(box,stf,delay,speed,h)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script>
+function slideLine(box,stf,delay,speed,h)
         {
-              var slideBox = document.getElementById(box);
-                var delay = delay||1000,speed = speed||20,h = h||20;
-                  var tid = null,pause = false;
-                    var s = function(){tid=setInterval(slide, speed);}
-                      var slide = function(){
-                          if(pause) return;
-                              slideBox.scrollTop +=1 ;
-                                  if(slideBox.scrollTop%h == 0){
-                                        clearInterval(tid);
-                                              slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);
-                                                    slideBox.scrollTop = 0;
-                                                          setTimeout(s, delay);
-                                                          934234
-                                                              }
-                                                                }
-                                                                  slideBox.onmouseover=function(){pause=true;}
-                                                                    slideBox.onmouseout=function(){pause=false;}
-                                                                      setTimeout(s, delay);
-                                                                      }
-                                                                  slideLine('ann_boxa','div',3500,2,400);
+            var slideBox = document.getElementById(box);
+            var delay = delay||1000,speed = speed||20,h = h||20;
+            var tid = null,pause = false;
+            var s = function(){tid=setInterval(slide, speed);}
+            var slide = function(){
+             if(pause) return;
+              slideBox.scrollTop +=1 ;
+              if(slideBox.scrollTop%h == 0){
+              clearInterval(tid);
+              slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);
+              slideBox.scrollTop = 0;
+              setTimeout(s, delay);
+                }
+               }
+            slideBox.onmouseover=function(){pause=true;}
+            slideBox.onmouseout=function(){pause=false;}
+            setTimeout(s, delay);
+                }
+        slideLine('ann_boxa','div',3500,3,400);
 </script>
 
 </body>

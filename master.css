@@ -145,7 +145,7 @@ p2{
 }
 .quoto_part{
   position: absolute;
-  width: 100%;
+  width: 20vw;
   top:30vh;
   background-color: #0E0E0E;
   line-height: 250px;
@@ -177,13 +177,13 @@ p2{
   width: 7vw;
   height: 22vh;
   right: 20vw;
-  top:14.5vh;
+  top:17.5vh;
 }
 
 .section2{
   position: absolute;
   height: 70vh;
-  top: 60vh;
+  top: 62vh;
   right: 0vw;
   width: 100%;
   background: url(ABOUT US-08.jpg);

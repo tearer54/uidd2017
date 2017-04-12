@@ -74,20 +74,21 @@ p2{
   position: relative;
   top: 13.1vh;
   height: 40vh;
-  width:40vw
-   background-color: #0E0E0E;
+  width:40vw;
 }
 
 .photo1{
   width: 30vw;
-  height: 12.4vh;
+  height: 40vh;
+  top:13.1vh;
+  left:0vw;
   position: absolute;
 }
 
 .center_part{
   position: absolute;
-  left: 30vhpx;
-  height: 40vh;
+  left: 30vw;
+  height: 70vh;
   width: 40vw;
   background-color: #0E0E0E;
 }
@@ -95,8 +96,8 @@ p2{
 .left_part{
   width: 40vw;
   height: 40vh;
+  left:30vw;
   position: absolute;
-  background: #0E0E0E;
 }
 
 #about{

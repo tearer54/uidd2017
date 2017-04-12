@@ -15,27 +15,33 @@
    <div id="bula_3" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
    </div>
         <script>
-        function slideLine3(box,stf,delay,speed,h){
+        function slideLine3(box,stf,delay,speed,h)
+        {
           var slideBox = document.getElementById(box);
-            var delay = delay||1000,speed = speed||20,h = h||20;
-              var tid = null,pause = false;
-                var s = function(){tid=setInterval(slide, speed);}
-                  var slide = function(){
-                      if(pause) return;
-                          slideBox.scrollTop += 1;
-                              if(slideBox.scrollTop%h == 0){
-                                   clearInterval(tid);
-                                          slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);
-                                                slideBox.scrollTop=0;
-                                                      setTimeout(s, delay);
-                                                          }
-                                                            }
-                                                              slideBox.onmouseover=function(){pause=true;}
-                                                                slideBox.onmouseout=function(){pause=false;}
-                                                                  setTimeout(s, delay);
-                                                                  }
-                                                                
-                                                                  slideLine3('ann_boxa','div',3500,5,415);
+          function slideLine(box,stf,delay,speed,h)
+          {
+            var slideBox = document.getElementById(box);
+            function slideLine(box,stf,delay,speed,h)
+            {
+              var slideBox = document.getElementById(box);
+                var delay = delay||1000,speed = speed||20,h = h||20;
+                  var tid = null,pause = false;
+                    var s = function(){tid=setInterval(slide, speed);}
+                      var slide = function(){
+                          if(pause) return;
+                              slideBox.scrollTop += 1;
+                                  if(slideBox.scrollTop%h == 0){
+                                        clearInterval(tid);
+                                              slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);
+                                                    slideBox.scrollTop = 0;
+                                                          setTimeout(s, delay);
+                                                              }
+                                                                }
+                                                                  slideBox.onmouseover=function(){pause=true;}
+                                                                    slideBox.onmouseout=function(){pause=false;}
+                                                                      setTimeout(s, delay);
+                                                                      }
+                                                                  slideLine3('ann_boxa','div',3500,2,415);
 </script>
 
 </body>

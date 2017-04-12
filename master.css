@@ -72,7 +72,7 @@ p2{
 
 .section1{
   position: relative;
-  top: 11vh;
+  top: 10vh;
   height: 40vh;
   width:100vw;
 }
@@ -80,17 +80,17 @@ p2{
 .photo1{
   width: 30vw;
   height: 40vh;
-  top:8vh;
+  top:0vh;
   left:0vw;
   position: absolute;
 }
 
 .center_part{
   position: absolute;
-  left: 30vw;
+  left: 12vw;
   height: 40vh;
   width: 30vw;
-  top:11vh;
+  top:4vh;
 
 }
 
@@ -98,7 +98,7 @@ p2{
   width: 40vw;
   height: 40vh;
   left:0vw;
-  top:3vh;
+  top:1vh;
   position: absolute;
 }
 

@@ -71,7 +71,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
                                                                                             }
 
                                                                                             .section1{
-                                                                                              position: absolute;
+                                                                                              position: relative;
                                                                                                 top: 13.2vh;
                                                                                                   height: 30vh;
                                                                                                     background-color: #0E0E0E;
@@ -80,7 +80,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
                                                                                                       .photo1{
                                                                                                         width: 30vw
-                                                                                                          height: 30vh;
+                                                                                                          height: 13.4vh;
                                                                                                             position: absolute;
                                                                                                             }
 
@@ -187,4 +187,3 @@ table, caption, tbody, tfoot, thead, tr, th, td {
                                                                                                                                                                                                                                                   background-repeat: no-repeat;
                                                                                                                                                                                                                                                      background-size: cover;
                                                                                                                                                                                                                                                      }
-

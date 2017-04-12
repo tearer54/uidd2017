@@ -90,15 +90,15 @@ p2{
   left: 19vw;
   height: 40vh;
   width: 30vw;
-  top:4vh;
+  top:3vh;
 
 }
 
 .left_part{
-  width: 40vw;
+  width: 20vw;
   height: 40vh;
   left:0vw;
-  top:5.1vh;
+  top:4.1vh;
   position: absolute;
 }
 
@@ -177,7 +177,7 @@ p2{
   width: 7vw;
   height: 20vh;
   right: 20vw;
-  top: 8vh;
+  top:13vh;
 }
 
 .section2{

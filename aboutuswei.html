@@ -26,16 +26,27 @@ top:13.2vh;
 z-index:1;
 }
 </style>
+<style type="text/css">
+div.namebox
+{
+position:absolute;
+left:40vw;
+top=15vh;
+z-index:1;
+}
+</style>
 <div class="photo">
 <div id="ann_boxa" class="ann3" style="width:30vw;">
   <div id="b1" class="ann3"><img src="ABOUT US-06.jpg"width=60%></div>
    <div id="b2" class="ann3"><img src="ABOUT US-06.jpg"width=60%></div>
    </div>
+</div>
 
-
-
-
-
+<div class="namebox">
+<div id="name_boxa"class="name">
+<div id="n1" class="name">陳美恩</div>
+<div id="n2" class="name">莊鎮維</div>
+</div>
 </div>
 
 
@@ -68,6 +79,7 @@ function slideLine(box,stf,delay,speed,h)
             setTimeout(s, delay);
                 }
         slideLine('ann_boxa','div',3500,3,400);
+        slideLine('name_box'),'div',3500,3,10);
 </script>
 
 </body>

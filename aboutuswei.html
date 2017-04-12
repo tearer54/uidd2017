@@ -23,9 +23,9 @@ o<html>
                 var s = function(){tid=setInterval(slide, speed);}
                   var slide = function(){
                       if(pause) return;
-                          slideBox.scrollTop += 1;
+                          slideBox.scrollTop -= 1;
                               if(slideBox.scrollTop%h == 0){
-                                    clearInterval(tid);
+                                   clearInterval(tid);
                                           slideBox.insertBefore(slideBox.getElementsByTagName(stf)[slideBox.getElementsByTagName(stf).length-1],slideBox.getElementsByTagName(stf)[0]);
                                                 slideBox.scrollTop = slideBox.scrollHeight;
                                                       setTimeout(s, delay);
@@ -36,7 +36,7 @@ o<html>
                                                                   setTimeout(s, delay);
                                                                   }
                                                                   
-                                                                  slideLine3('ann_boxa','div',1500,80,415);
+                                                                  slideLine3('ann_boxa','div',1500,35,415);
 </script>
 
 </body>

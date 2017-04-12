@@ -95,7 +95,7 @@ p2{
 }
 
 .left_part{
-  width: 20vw;
+  width: 18vw;
   height: 40vh;
   left:0vw;
   top:4.1vh;
@@ -146,10 +146,10 @@ p2{
 .quoto_part{
   position: absolute;
   width: 100%;
-  height: 250px;
+  top:20vh;
   background-color: #0E0E0E;
   line-height: 250px;
-  left: 30vw;
+  left: 10vw;
 }
 
 #quoto{
@@ -177,7 +177,7 @@ p2{
   width: 7vw;
   height: 20vh;
   right: 20vw;
-  top:13vh;
+  top:14.5vh;
 }
 
 .section2{

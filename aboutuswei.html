@@ -11,8 +11,8 @@
 .ann3{overflow:hidden;height:415px;}
 </style>
 <div id="ann_boxa" class="ann3" style="width:520px;">
-  <div id="bula_2" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
-   <div id="bula_3" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
+  <div id="b1" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
+   <div id="b2" class="ann3"><img src="ABOUT US-06.jpg"width=66%></div>
    </div>
         <script>
         function slideLine(box,stf,delay,speed,h)
@@ -23,7 +23,7 @@
                     var s = function(){tid=setInterval(slide, speed);}
                       var slide = function(){
                           if(pause) return;
-                              slideBox.scrollTop += 1;
+                              slideBox.scrollTop +=2 ;
                                   if(slideBox.scrollTop%h == 0){
                                         clearInterval(tid);
                                               slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);

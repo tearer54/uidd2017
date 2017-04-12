@@ -1,5 +1,5 @@
-
-dy, div, span, applet, object, iframe,
+html,
+body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -9,181 +9,181 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
-        padding: 0;
-            border: 0;
-                outline: 0;
-                    font-size: 100%;
-                        vertical-align: baseline;
-                            background: transparent;
-                            }
-                            body {
-                                line-height: 1;
-                                }
-                                ol, ul {
-                                    list-style: none;
-                                    }
-                                    blockquote, q {
-                                        quotes: none;
-                                        }
-                                        blockquote:before, blockquote:after,
-                                        q:before, q:after {
-                                            content: '';
-                                                content: none;
-                                                }
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
 
-                                                /* remember to define focus styles! */
-                                                :focus {
-                                                    outline: 0;
-                                                    }
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
 
-                                                    /* remember to highlight inserts somehow! */
-                                                    ins {
-                                                        text-decoration: none;
-                                                        }
-                                                        del {
-                                                            text-decoration: line-through;
-                                                            }
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
 
-                                                            /* tables still need 'cellspacing="0"' in the markup */
-                                                            table {
-                                                                border-collapse: collapse;
-                                                                    border-spacing: 0;
-                                                                    }
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-                                                                    nav {
-                                                                        height: 8vh;
-                                                                            position: fixed;
-                                                                                width: 100%;
-                                                                                }
+nav {
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
 
-                                                                                p1{
-                                                                                  font-size: 50px;
-                                                                                    color: white;
-                                                                                    font-family: Microsoft JhengHei;
-                                                                                     letter-spacing: 5px;
-                                                                                      padding: 5px;
-                                                                                      }
+p1{
+  font-size: 50px;
+  color: white;
+font-family: Microsoft JhengHei;
+ letter-spacing: 5px;
+ padding: 5px;
+}
 
-                                                                                      p2{
-                                                                                        font-size: 20px;
-                                                                                          color: orange;
-                                                                                            font-family: Microsoft JhengHei;
-                                                                                            }
+p2{
+  font-size: 20px;
+  color: orange;
+  font-family: Microsoft JhengHei;
+}
 
-                                                                                            .section1{
-                                                                                              position: relative;
-                                                                                                top: 13.2vh;
-                                                                                                  height: 30vh;
-                                                                                                    background-color: #0E0E0E;
-                                                                                                      width: 100%;
-                                                                                                      }
+.section1{
+  position: relative;
+  top: 13.2vh;
+  height: 30vh;
+  background-color: #0E0E0E;
+  width: 100%;
+}
 
-                                                                                                      .photo1{
-                                                                                                        width: 30vw
-                                                                                                          height: 13.4vh;
-                                                                                                            position: absolute;
-                                                                                                            }
+.photo1{
+  width: 30vw
+  height: 13.4vh;
+  position: absolute;
+}
 
-                                                                                                            .center_part{
-                                                                                                              position: absolute;
-                                                                                                                left: 30vhpx;
-                                                                                                                  height: 30vh;
-                                                                                                                    width: 100%;
-                                                                                                                      background-color: #0E0E0E;
-                                                                                                                      }
+.center_part{
+  position: absolute;
+  left: 30vhpx;
+  height: 30vh;
+  width: 100%;
+  background-color: #0E0E0E;
+}
 
-                                                                                                                      .left_part{
-                                                                                                                        width: 40%;
-                                                                                                                          height: 250px;
-                                                                                                                            position: absolute;
-                                                                                                                              background: #0E0E0E;
-                                                                                                                              }
+.left_part{
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  background: #0E0E0E;
+}
 
-                                                                                                                              #about{
-                                                                                                                                color: white;
-                                                                                                                                  font-family: Microsoft JhengHei;
-                                                                                                                                    font-weight: bold;
-                                                                                                                                      padding: 10px;
-                                                                                                                                        font-size: 20px;
-                                                                                                                                        }
+#about{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
 
-                                                                                                                                        #first_name{
-                                                                                                                                          color: white;
-                                                                                                                                            font-family: Microsoft JhengHei;
-                                                                                                                                              font-size: 20px;
-                                                                                                                                                padding-left: 15px;
-                                                                                                                                                }
+#first_name{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  padding-left: 15px;
+}
 
-                                                                                                                                                #name{
-                                                                                                                                                  color: white;
-                                                                                                                                                    font-family: Microsoft JhengHei;
-                                                                                                                                                      font-size: 15px;
-                                                                                                                                                        padding-left: 15px;
-                                                                                                                                                          line-height: 1.4;
+#name{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  padding-left: 15px;
+  line-height: 1.4;
 
-                                                                                                                                                          }
+}
 
-                                                                                                                                                          #desc{
-                                                                                                                                                            color: white;
-                                                                                                                                                              font-family: Microsoft JhengHei;
-                                                                                                                                                                padding-left: 15px;
-                                                                                                                                                                  font-size: 12px;
-                                                                                                                                                                    line-height: 1.4;
+#desc{
+  color: white;
+  font-family: Microsoft JhengHei;
+  padding-left: 15px;
+  font-size: 12px;
+  line-height: 1.4;
 
-                                                                                                                                                                    }
+}
 
-                                                                                                                                                                    #contact{
-                                                                                                                                                                      color: white;
-                                                                                                                                                                        font-family: Microsoft JhengHei;
-                                                                                                                                                                          padding-left: 15px;
-                                                                                                                                                                            font-size: 12px;
-                                                                                                                                                                             line-height: 1.8;
-                                                                                                                                                                             }
+#contact{
+  color: white;
+  font-family: Microsoft JhengHei;
+  padding-left: 15px;
+  font-size: 12px;
+ line-height: 1.8;
+}
 
-                                                                                                                                                                             .quoto_part{
-                                                                                                                                                                               position: absolute;
-                                                                                                                                                                                 width: 100%;
-                                                                                                                                                                                   height: 250px;
-                                                                                                                                                                                     background-color: #0E0E0E;
-                                                                                                                                                                                       line-height: 250px;
-                                                                                                                                                                                         left: 30vw;
-                                                                                                                                                                                         }
+.quoto_part{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background-color: #0E0E0E;
+  line-height: 250px;
+  left: 30vw;
+}
 
-                                                                                                                                                                                         #quoto{
-                                                                                                                                                                                           color: white;
-                                                                                                                                                                                             font-family: Microsoft JhengHei;
-                                                                                                                                                                                               font-size: 15px;
-                                                                                                                                                                                                 animation-duration: 5s;
-                                                                                                                                                                                                  animation-name: slidein;
-                                                                                                                                                                                                  }
+#quoto{
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  animation-duration: 5s;
+ animation-name: slidein;
+}
 
-                                                                                                                                                                                                  @keyframes slidein {
-                                                                                                                                                                                                    from {
-                                                                                                                                                                                                        opacity: 0;
-                                                                                                                                                                                                            width: 300%;
-                                                                                                                                                                                                              }
+@keyframes slidein {
+  from {
+    opacity: 0;
+    width: 300%;
+  }
 
-                                                                                                                                                                                                                to {
-                                                                                                                                                                                                                    opacity: 1;
-                                                                                                                                                                                                                        width: 100%;
-                                                                                                                                                                                                                          }
-                                                                                                                                                                                                                          }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+}
 
-                                                                                                                                                                                                                          .phone{
-                                                                                                                                                                                                                            position: absolute;
-                                                                                                                                                                                                                              width: 7vw;
-                                                                                                                                                                                                                                height: 20vh;
-                                                                                                                                                                                                                                  right: 20vw;
-                                                                                                                                                                                                                                    top: 8vh;
-                                                                                                                                                                                                                                    }
+.phone{
+  position: absolute;
+  width: 7vw;
+  height: 20vh;
+  right: 20vw;
+  top: 8vh;
+}
 
-                                                                                                                                                                                                                                    .section2{
-                                                                                                                                                                                                                                      position: absolute;
-                                                                                                                                                                                                                                        height: 70vh;
-                                                                                                                                                                                                                                          top: 40vh;
-                                                                                                                                                                                                                                            right: 0vw;
-                                                                                                                                                                                                                                              width: 100%;
-                                                                                                                                                                                                                                                background: url(ABOUT US-08.jpg);
-                                                                                                                                                                                                                                                  background-repeat: no-repeat;
-                                                                                                                                                                                                                                                     background-size: cover;
-                                                                                                                                                                                                                                                     }
+.section2{
+  position: absolute;
+  height: 70vh;
+  top: 40vh;
+  right: 0vw;
+  width: 100%;
+  background: url(ABOUT US-08.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+}

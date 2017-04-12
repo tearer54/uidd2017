@@ -88,7 +88,7 @@ p2{
 .center_part{
   position: absolute;
   left: 30vw;
-  height: 70vh;
+  height: 40vh;
   width: 30vw;
   top:11vh;
 
@@ -97,8 +97,8 @@ p2{
 .left_part{
   width: 40vw;
   height: 40vh;
-  left:30vw;
-  top:8vh;
+  left:0vw;
+  top:6vh;
   position: absolute;
 }
 
@@ -131,7 +131,7 @@ p2{
   font-family: Microsoft JhengHei;
   padding-left: 15px;
   font-size: 12px;
-  line-height: 1.4;
+i  line-height: 1.4;
 
 }
 

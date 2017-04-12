@@ -1,5 +1,5 @@
 
-dy, div, span, applet, object, iframe,
+html,body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -71,39 +71,38 @@ table, caption, tbody, tfoot, thead, tr, th, td {
                                                                                             }
 
                                                                                             .section1{
-                                                                                              position: relative;
-                                                                                                top: 8vh;
-                                                                                                  height: 10vh;
+                                                                                              position: absolute;
+                                                                                                top: 13.2vh;
+                                                                                                  height: 30vh;
                                                                                                     background-color: #0E0E0E;
                                                                                                       width: 100%;
                                                                                                       }
 
-                                                                                                      .photo{
-                                                                                                        width: 250px;
-                                                                                                          height: 20vh;
-                                                                                                            background-color: white;
+                                                                                                      .photo1{
+                                                                                                        width: 30vw
+                                                                                                          height: 30vh;
+                                                                                                            position: absolute;
+                                                                                                            }
+
+                                                                                                            .center_part{
                                                                                                               position: absolute;
-                                                                                                              }
+                                                                                                                left: 30vhpx;
+                                                                                                                  height: 30vh;
+                                                                                                                    width: 100%;
+                                                                                                                      background-color: #0E0E0E;
+                                                                                                                      }
 
-                                                                                                              .center_part{
-                                                                                                                position: absolute;
-                                                                                                                  left: 200px;
-                                                                                                                    height: 10vh;
-                                                                                                                      width: 100%;
-                                                                                                                        background-color: #0E0E0E;
-                                                                                                                        }
+                                                                                                                      .left_part{
+                                                                                                                        width: 40%;
+                                                                                                                          height: 250px;
+                                                                                                                            position: absolute;
+                                                                                                                              background: #0E0E0E;
+                                                                                                                              }
 
-                                                                                                                        .left_part{
-                                                                                                                          width: 40%;
-                                                                                                                            height: 250px;
-                                                                                                                              position: absolute;
-                                                                                                                                background: #0E0E0E;
-                                                                                                                                }
-
-                                                                                                                                #about{
-                                                                                                                                  color: white;
-                                                                                                                                    font-family: Microsoft JhengHei;
-                                                                                                                                      font-weight: bold;
+                                                                                                                              #about{
+                                                                                                                                color: white;
+                                                                                                                                  font-family: Microsoft JhengHei;
+                                                                                                                                    font-weight: bold;
                                                                                                                                       padding: 10px;
                                                                                                                                         font-size: 20px;
                                                                                                                                         }

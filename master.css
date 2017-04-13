@@ -78,7 +78,7 @@ p2{
 }
 
 .photo1{
-  width: 15vw;
+  width: 20vw;
   height: 40vh;
   top:5vh;
   left:0vw;
@@ -150,7 +150,7 @@ p2{
   height:8vh;
   background-color: #0E0E0E;
   line-height: 250px;
-  left: 20.2vw;
+  left: 22.2vw;
 }
 
 #quoto{
@@ -175,7 +175,7 @@ p2{
 
 .phone{
   position: absolute;
-  width: 25vw;
+  width: 20vw;
   height: 40vh;
   right: 0vw;
   top:13.8vh;

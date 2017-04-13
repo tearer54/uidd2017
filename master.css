@@ -72,7 +72,7 @@ p2{
 
 .section1{
   position: relative;
-  top: 10vh;
+  top: 9vh;
   height: 40vh;
   width:100vw;
 }
@@ -147,6 +147,7 @@ p2{
   position: absolute;
   width: 20vw;
   top:30vh;
+  height:8vh;
   background-color: #0E0E0E;
   line-height: 250px;
   left: 24.1vw;
@@ -176,7 +177,7 @@ p2{
   position: absolute;
   width: 25vw;
   height: 40vh;
-  right: 13vw;
+  right: 8vw;
   top:13.8vh;
 }
 

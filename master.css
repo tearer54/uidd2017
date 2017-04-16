@@ -129,21 +129,12 @@ p2{
       font-size: 20px;
         padding-left: 15px;
         }
-      
-#name{
-  color: white;
-  font-family: Microsoft JhengHei;
-  font-size: 15px;
-  padding-left: 15px;
-  line-height: 1.4;
-
-}
 
 #desc{
   color: white;
   font-family: DFYuanLight-B5;
   padding-left: 15px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
 
 }
@@ -151,7 +142,7 @@ p2{
   color: white;
     font-family: DFYuanLight-B5;
       padding-left: 15px;
-        font-size: 15px;
+        font-size: 12px;
           line-height: 1.4;
 
           }
@@ -159,7 +150,7 @@ p2{
             color: white;
                 font-family: DFYuanLight-B5;
                       padding-left: 15px;
-                              font-size: 15px;
+                              font-size: 12px;
                                         line-height: 1.4;
 
                                                   }

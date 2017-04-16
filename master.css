@@ -123,7 +123,13 @@ p2{
         padding-left: 15px;
  }
         
-
+#first_name2{
+  color: white;
+    font-family: Microsoft JhengHei;
+      font-size: 20px;
+        padding-left: 15px;
+        }
+      
 #name{
   color: white;
   font-family: Microsoft JhengHei;

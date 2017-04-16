@@ -11,6 +11,7 @@
 
 <style>
 .ann3{overflow:hidden;height:45vh;}
+.self{overflow:hidden;height:3vh;}
 </style>
 <style type="text/css">
 div.up
@@ -37,8 +38,13 @@ height:0vw;
           <div class="left_part">
                 <p id="about">ABOUT US</p><br>
                        <div class="self">
-                      <p id="first_name">陳</p><p id="name">美恩</p><br><p id="desc">在都市長大的台中人 興趣是水彩<br>目前就讀於成大工設所<br>最喜歡的動物是狼</p><p id="contact"><br>聯絡資訊<br>lobitozone@gmail.com</p>
-                          </div>
+                      <p id="first_name" class="self">陳</p>
+                      <p id="first_name1"class="self">黃</p>
+</div>
+                      <p id="name">美恩</p><br>
+                      <p id="desc">在都市長大的台中人 興趣是水彩<br>目前就讀於成大工設所<br>最喜歡的動物是狼</p>
+                      <p id="contact"><br>聯絡資訊<br>lobitozone@gmail.com</p>
+                          
                           </div>
                               <div class="quoto_part">
                                 <p id="quoto">「用音樂連結人們,彼此分享」</p7>
@@ -89,7 +95,7 @@ function slideLine(box,stf,delay,speed,h)
             setTimeout(s, delay);
                 }
         slideLine('ann_boxa','div',3500,3,400);
-      
+        slideLine('self','div',3500,3,20);
 </script>
 
 </body>

@@ -116,6 +116,13 @@ p2{
   font-size: 20px;
   padding-left: 15px;
 }
+#first_name1{
+  color: white;
+    font-family: Microsoft JhengHei;
+      font-size: 20px;
+        padding-left: 15px;
+ }
+        
 
 #name{
   color: white;
@@ -128,7 +135,7 @@ p2{
 
 #desc{
   color: white;
-  font-family: Microsoft JhengHei;
+  font-family: DFYuanLight-B5;
   padding-left: 15px;
   font-size: 12px;
   line-height: 1.4;

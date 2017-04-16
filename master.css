@@ -143,10 +143,26 @@ p2{
   color: white;
   font-family: DFYuanLight-B5;
   padding-left: 15px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.4;
 
 }
+#desc1{
+  color: white;
+    font-family: DFYuanLight-B5;
+      padding-left: 15px;
+        font-size: 15px;
+          line-height: 1.4;
+
+          }
+          #desc2{
+            color: white;
+                font-family: DFYuanLight-B5;
+                      padding-left: 15px;
+                              font-size: 15px;
+                                        line-height: 1.4;
+
+                                                  }
 
 #contact{
   color: white;

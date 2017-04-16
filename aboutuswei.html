@@ -12,6 +12,7 @@
 <style>
 .ann3{overflow:hidden;height:45vh;}
 .self{overflow:hidden;height:20px;}
+.descr{overflow:hidden;height:15px;}
 </style>
 <style type="text/css">
 div.up
@@ -38,12 +39,16 @@ height:0vw;
           <div class="left_part">
                 <p id="about">ABOUT US</p><br>
                        <div id="self_boxa"class="self">
-                      <div id="first_name" class="self">陳</div>
-                      <div id="first_name1"class="self">黃</div>
-                      <div id="first_name2"class="self">曾</div>
+                      <div id="first_name" class="self">陳美恩</div>
+                      <div id="first_name1"class="self">黃芷芸</div>
+                      <div id="first_name2"class="self">曾心妤</div>
 </div>
-                      <p id="name">美恩</p><br>
-                      <p id="desc">在都市長大的台中人 興趣是水彩<br>目前就讀於成大工設所<br>最喜歡的動物是狼</p>
+                      <div id="descr_boxa" class="descr">
+                      <div id="desc" class="descr">在都市長大的台中人 興趣是水彩<br>目前就讀於成大工設所<br>最喜歡的動物是狼</div>
+                      <div id="desc1"class="descr">在郊區長大的新北人 興趣是長笛<br>目前就讀於成大工設系<br>最喜歡的顏色是白</div>
+                      <div id="desc2"class="descr">在市區長大的桃園人 興趣是彈琴<br>目前就讀於成大電機系<br>最喜歡的動物是貓</div>
+
+                      </div>
                       <p id="contact"><br>聯絡資訊<br>lobitozone@gmail.com</p>
                           
                           </div>
@@ -96,8 +101,8 @@ function slideLine(box,stf,delay,speed,h)
             setTimeout(s, delay);
                 }
         slideLine('ann_boxa','div',3500,3,400);
-        
-        slideLine('self_boxa','div',4500,3,20);
+        slideLine('self_boxa','div',4300,3,20);
+        slideLine('descr_boxa''div',4300,3,15));
 </script>
 
 </body>

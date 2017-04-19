@@ -72,7 +72,7 @@ p2{
 
 .section1{
   position: relative;
-  top: 9vh;
+  top: 8.5vh;
   height: 40vh;
   width:100vw;
 }
@@ -80,7 +80,7 @@ p2{
 .photo1{
   width: 19vw;
   height: 40vh;
-  top:6vh;
+  top:4vh;
   left:0vw;
   position: absolute;
 }
@@ -203,7 +203,7 @@ p2{
 .section2{
   position: absolute;
   height: 70vh;
-  top: 60vh;
+  top: 61vh;
   right: 0vw;
   width: 100%;
   background: url(ABOUT US-08.jpg);
